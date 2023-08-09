@@ -1,0 +1,8 @@
+
+.bg-circle{
+    @apply border border-white rounded-full p-2 bg-white; 
+}
+
+.top-footer{
+@apply flex w-full justify-between items-center fixed z-10 min-h-[80px] p-8 text-base bottom-0;
+}

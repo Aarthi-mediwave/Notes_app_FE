@@ -1,0 +1,39 @@
+@tailwind utilities;
+.textarea-wrap textarea {
+  @apply  w-full p-3 text-lg font-medium text-white bg-transparent rounded-md;
+  min-height: 400px;
+}
+
+.textarea-wrap .answer-textarea {
+  @apply  w-full p-3 text-lg font-medium text-white rounded-md;
+  min-height: 10px;
+  overflow:hidden;
+}
+
+.textarea-wrap textarea:focus {
+  @apply outline-none border-none;
+}
+.textarea-wrap textarea {
+  letter-spacing: 0px;
+}
+@responsive {
+  .textarea-wrap textarea::placeholder {
+    @apply text-card-700 !important;
+  }
+}
+textarea::-webkit-scrollbar {
+  width: 7px;
+}
+textarea::-webkit-scrollbar-thumb {
+  background: #c8ccd1;
+  border-radius: 10px;
+  height: 20px;
+}
+textarea {
+  resize: none;
+}
+
+/* .textarea-wrap .textover {
+  @apply w-full p-3 text-base tracking-tighter text-font-text bg-white rounded-md mt-8 border border-teritory-400 !important;
+  min-height: 115px;
+} */

@@ -1,0 +1,39 @@
+.overall-img{
+    @apply max-w-lg m-auto flex w-[100%] md:w-[90%] md:w-[100%] items-center;
+    min-height: calc(100vh - 100px);
+}
+
+.overall-img svg{
+    @apply m-auto;
+}
+
+.imagetext{
+    @apply absolute top-[82%] left-[27%] w-[50%] text-center text-2xl font-medium;
+}
+
+.menu-overall{
+    @apply px-[10px];
+}
+
+.menu-overall-palette{
+    @apply pl-[10px]
+}
+
+.bg-tick svg, .bg-back svg{
+    @apply mt-2 ml-1;
+}
+
+.bg-menu svg{
+    margin-top: 0.4rem;
+    margin-left: 0.3rem;
+}
+
+.palette-outer {
+    @apply flex justify-between px-12 py-4 bg-card-700;
+}
+
+.color-tick{
+    position: absolute;
+    right: 18px;
+    top: 16px;
+}

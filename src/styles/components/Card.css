@@ -1,0 +1,71 @@
+.overall-card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    @apply px-12 py-4 md:px-[10rem] md:py-4;
+}
+.card-container {
+    border-radius: 25px;
+    padding: 20px; 
+    position: relative;
+  }
+
+
+  .orange{
+    @apply bg-card-100;
+  }
+
+  .blue{
+    @apply bg-card-200;
+  }
+
+  .pink{
+    @apply bg-card-300;
+  }
+
+  .lemon-yellow{
+    @apply bg-card-400;
+  }
+
+  .pale-green{
+    @apply bg-card-500;
+  }
+
+  .orange-yellow{
+    @apply bg-card-600;
+  }
+
+  .grey{
+    @apply bg-card-700;
+  }
+
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .card-content h2 {
+    font-size: 16px;
+    margin-bottom: 2rem;
+    color:#212121;
+    font-weight: 400;
+    margin-top: 10px;
+  }
+
+  .card-footer{
+    padding:20px;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .card-content p {
+    font-size: 14px;
+    color:#585858;
+  }

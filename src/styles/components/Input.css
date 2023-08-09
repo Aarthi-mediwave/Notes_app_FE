@@ -1,0 +1,30 @@
+
+  .group-input {
+    @apply relative mb-6;
+  }
+  .group-input input {
+    @apply w-[100%] h-[48%] border-[1px] border-card-100 text-base text-black pt-4 pb-3 pr-3 pl-4 outline-none;
+    border-radius: 0.5rem;
+  }
+  .group-input input:hover {
+    @apply border-card-200;
+  }
+  
+  .group-input input:focus {
+    @apply border-card-200;
+  }
+  
+  .group-input label {
+    @apply text-card-100 pl-2 pr-2 cursor-text text-base block text-left tracking-wide bg-white absolute left-4 top-4;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+  }
+ 
+.addnote .group-input input{
+  @apply text-lg font-medium text-white bg-transparent transition-none ;
+}
+
+.addnote .group-input input::placeholder {
+  @apply text-card-700 !important;
+}
+
+.addnote input[type=text]:focus{ width: 100%; }

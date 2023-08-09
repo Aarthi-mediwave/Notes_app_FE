@@ -1,0 +1,23 @@
+.top-header {
+    @apply flex w-full justify-between items-center relative z-10 min-h-[80px] p-8 text-base;
+  }
+
+  .top-header h1{
+    @apply text-4xl font-medium;
+  }
+  
+  .bg-search, .bg-pin, .bg-menu, .bg-back, .bg-palette, .bg-delete, .bg-tick {
+    @apply border border-card-700 rounded-md p-2 bg-card-700 w-[50px] h-[50px] cursor-pointer; 
+}
+
+.bg-pin.green, .bg-tick.green, .bg-palette.green{
+@apply bg-card-500;
+}
+
+.bg-tick {
+@apply w-[50px] h-[50px];
+}
+
+.bg-palette{
+  @apply bg-card-700 pt-2 ;
+}

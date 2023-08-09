@@ -1,0 +1,25 @@
+.overall-container {
+  @apply max-w-lg m-auto flex w-[100%] md:w-[90%] md:w-[100%] items-center;
+  min-height: calc(100vh - 0px);
+}
+@media (max-width: 800px) {
+  .overall-container {
+    min-height: calc(100vh - 0px);
+  }
+}
+
+.full-white {
+  @apply m-auto;
+}
+
+.overall-spacing {
+  @apply w-[100%] md:border-[1px] md:border-white;
+}
+
+ .overall-spacing i {
+  @apply font-thin text-sm text-card-700;
+}
+
+/* .overall-padding {
+  @apply  pt-8 md:pb-8 pb-32 relative px-4;
+}  */

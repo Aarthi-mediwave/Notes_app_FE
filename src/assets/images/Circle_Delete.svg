@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="question-delete-icon" width="25" height="25" viewBox="0 0 25 25">
+  <g id="Group_4041" data-name="Group 4041" transform="translate(-492 -701.883)">
+    <circle id="Ellipse_180" data-name="Ellipse 180" cx="12.5" cy="12.5" r="12.5" transform="translate(492 701.883)" fill="#0060af"/>
+    <path id="Path_14855" data-name="Path 14855" d="M139.864,10.832l-.13,7.5h1.347l.13-7.5Zm-.887,0H137.63l.13,7.5h1.347Zm3.122,8.207v.022a.077.077,0,0,1-.076.077h-5.2a.077.077,0,0,1-.077-.077l-.265-8.228H135.13l.265,8.241a1.425,1.425,0,0,0,1.424,1.411h5.2a1.425,1.425,0,0,0,1.423-1.411l.265-8.241h-1.347Zm-.208-10.365-.269-1.3h-4.4l-.269,1.3H134.3V10.02h10.373V8.674Z" transform="translate(365.012 700.454)" fill="#fff"/>
+  </g>
+</svg>
